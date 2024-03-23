@@ -19,6 +19,7 @@ Assuming you have NPM installed, perform the following.
 2) Each player's objective is to align 4 of their colored tiles in row horizontally, vertically, or diagonally.
 3) After a player achieves a Connect 4 or there are no more available, either player will have the option to restart the game.
 
+You can stop the port the game is running on by typing "Ctrl + C" into the same terminal you started the game in. Have fun!
 
 #### Sources:
 Here are some sources I used to learn new material on CSS/HTML/Javascript to help me implement this assignment.
