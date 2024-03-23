@@ -1,0 +1,62 @@
+body{
+    --text-color: white;
+    font-family: 'Times New Roman', Times, serif;
+    background-image: url(images/GalaxyBackground.png);
+}
+
+#board{
+    height: 600px;
+    width: 700px;
+    background-color: grey;
+    border: 10px solid rgb(112, 4, 112); 
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#restartGame{
+    text-align: center;
+}
+
+.title {
+    color: white;
+    text-align: center;
+}
+
+/* Each tile size is size 100px x 100px */
+.tile {
+    height: 70px;
+    width: 70px;
+    background-color: white;
+    border-radius: 50%;
+    margin: 10px;
+    border: 5px solid black;
+}
+
+.player1-tile{
+    background-color: red;
+}
+
+.player2-tile{
+    background-color: blue;
+}
+
+.status{
+    color: white;
+    text-align: center;
+}
+
+.restartButton{
+    background-color: black;;
+    color: white;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 3px 20px;
+    font-size: 32px;
+    outline: none;
+    border: none;
+}
+
+.disableClick{
+    pointer-events: none;
+}
